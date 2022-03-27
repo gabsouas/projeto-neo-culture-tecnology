@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #99BF7E;
+}
+
+.header{
+    width: 100%;
+    height: 200px;
+    border-bottom: white;
+    align-items: center;
+}
+
+.titulo{
+    margin: 0px;
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.header .container{
+    justify-content: space-between;
+    height: 100%;
+}
+
+.navbar{
+    width: 500px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    display: flex;
+    padding: 0px;
+}
+
+.banner{
+    height: 700px;
+    background-image: url(nctdream3.jpg);
+    background-size: cover;
+}
+
+.video{
+ margin: 370px;
+ margin-top: 40px;
+}
+
+.fundo_video{
+    background-color: white;
+    width: 100%;
+    height: 390px;
+    margin-bottom: 40px;
+}
+
+p{
+   text-align: center;
+   margin-left: 500px;
+   margin-right: 500px; 
+}
+
+.titulo_letra{
+    text-align: center;
+}
+
+footer{
+    text-align: center; 
+}
+
+#img_centro{
+    margin-left: 540px;
+}

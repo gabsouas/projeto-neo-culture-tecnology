@@ -1,14 +1,22 @@
 body{
     margin: 0px;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #99BF7E;
+    font-family: monospace;
+    background-color: #000000;
+    background-image: url(neo-culture.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 50%;
+
 }
 
 .header{
     width: 100%;
-    height: 200px;
+    height: 100px;
     border-bottom: white;
     align-items: center;
+    font-size: 20px;
+    align-content: space-between;
+    text-decoration: none;
 }
 
 .titulo{
@@ -38,9 +46,8 @@ body{
 }
 
 .banner{
-    height: 700px;
     background-image: url(nctdream3.jpg);
-    background-size: cover;
+    margin-left: 700px;
 }
 
 .video{
@@ -49,10 +56,9 @@ body{
 }
 
 .fundo_video{
-    background-color: white;
+    background-color: black;
     width: 100%;
-    height: 390px;
-    margin-bottom: 40px;
+    height: 400px;
 }
 
 p{
@@ -61,14 +67,25 @@ p{
    margin-right: 500px; 
 }
 
-.titulo_letra{
-    text-align: center;
+.caixa_branca{
+margin-top: 20%;
+margin-bottom: 30%;
 }
 
 footer{
-    text-align: center; 
+    text-align: center;
+    color: white; 
 }
 
 #img_centro{
-    margin-left: 540px;
+    margin-left: 700px;
+}
+
+.frase {
+    width: 50%;
+}
+
+.selecao_quiz{
+    text-align: center;
+    flex-direction: row;
 }

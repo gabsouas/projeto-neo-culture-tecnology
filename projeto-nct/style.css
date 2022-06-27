@@ -2,10 +2,10 @@ body {
     margin: 0px;
     font-family: monospace;
     background-color: #000000;
-    background-image: url(neo-culture.png);
+    background-image: url(../img-projeto/neo-culture.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 45%;
 
 }
 
